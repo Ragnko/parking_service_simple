@@ -1,0 +1,24 @@
+name: parking_prediction_simple
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - typer
+      - pandas
+      - dvc
+      - dvc-gdrive
+      - numpy
+      - holidays
+      - mkdocs
+
+      # Machine learning
+      - scikit-learn
+      - statsforecast
+      - sktime
+      - catboost
+      - mapie
+
+      # Markov chain
+      - pomegranate
