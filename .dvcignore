@@ -3,5 +3,4 @@
 # https://dvc.org/doc/user-guide/dvcignore
 
 # Ignore data files but not .dvc metafiles
-data/*
 !*.dvc

@@ -1,0 +1,4 @@
+# params.yaml
+features:
+  input: data/raw/park_gate_2weeks.csv
+  output: data/processed/occupancy_2weeks.csv

@@ -1,0 +1,9 @@
+stages:
+  features:
+    cmd: python src/features.py --input-path data/raw/park_gate_2weeks.csv 
+      --output-path data/processed/occupancy_2weeks.csv
+    deps:
+    - data/raw/park_gate_2weeks.csv
+    - src/features.py
+    outs:
+    - data/processed/occupancy_2weeks.csv

@@ -6,7 +6,11 @@ dependencies:
   - pip
   - pip:
       - typer
+      - loguru
+      - dotenv
+      - tqdm
       - pandas
+      - matplotlib
       - dvc
       - dvc-gdrive
       - numpy
