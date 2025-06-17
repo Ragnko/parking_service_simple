@@ -1,0 +1,19 @@
+schema: '2.0'
+stages:
+  features:
+    cmd: python src/features.py --input-path data/raw/park_gate_2weeks.csv 
+      --output-path data/processed/occupancy_2weeks.csv
+    deps:
+    - path: data/raw/park_gate_2weeks.csv
+      hash: md5
+      md5: fd93c1024d16876e8bf462dde9682574
+      size: 1304878
+    - path: src/features.py
+      hash: md5
+      md5: 94b69fc5cca4ac68b2b0fd8d0e8003cd
+      size: 2405
+    outs:
+    - path: data/processed/occupancy_2weeks.csv
+      hash: md5
+      md5: 69e202fbf587d14906c500af7debafb1
+      size: 46626
