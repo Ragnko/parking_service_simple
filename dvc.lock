@@ -1,8 +1,8 @@
 schema: '2.0'
 stages:
   features:
-    cmd: python src/features.py --input-path data/raw/park_gate_2weeks.csv 
-      --output-path data/processed/occupancy_2weeks.csv
+    cmd: python src/features.py --input-path data/raw/park_gate_2weeks.csv --output-path
+      data/processed/occupancy_2weeks.csv
     deps:
     - path: data/raw/park_gate_2weeks.csv
       hash: md5
